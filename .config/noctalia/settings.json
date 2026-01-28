@@ -312,7 +312,7 @@
         "avatarImage": "",
         "boxRadiusRatio": 1,
         "compactLockScreen": true,
-        "dimmerOpacity": 0.5,
+        "dimmerOpacity": 0,
         "enableLockScreenCountdown": true,
         "enableShadows": true,
         "forceBlackScreenCorners": false,
