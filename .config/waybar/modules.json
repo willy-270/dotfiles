@@ -34,7 +34,7 @@
         }
     },
     "pulseaudio": {
-        "format": "{icon}  {volume}%",
+        "format": "{icon} {volume}%",
         "format-bluetooth": "{icon} {volume}%  {format_source}",
         "format-bluetooth-muted": " {icon} {format_source}",
         "format-muted": " {format_source}",
@@ -52,7 +52,7 @@
         "on-click": "pavucontrol"
     },
     "network": {
-        "format-wifi": "   {essid}",
+        "format-wifi": "  {essid}",
         "format-ethernet": "{ipaddr}/{cidr} ",
         "tooltip-format": "{ifname} via {gwaddr} ",
         "format-linked": "{ifname} (No IP) ",
@@ -74,11 +74,11 @@
         "on-click": "bash ~/.config/rofi/scripts/rofi-bluetooth-menu"
     },
     "cpu": {
-        "format": "  {usage}%",
+        "format": " {usage}%",
         "tooltip": true
     },
     "memory": {
-        "format": "  {}%",
+        "format": " {}%",
 	"tooltip": true
     },
     "temperature": {
@@ -89,7 +89,7 @@
         "format": " {temperatureC}°C"
     },
     "hyprland/language": {
-       "format": "  {}",
+       "format": " {}",
        "format-en": "EN",
        "format-ru": "RU"
     },
