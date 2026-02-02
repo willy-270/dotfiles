@@ -7,7 +7,7 @@
         "enableClipPreview": true,
         "enableClipboardHistory": false,
         "enableSettingsSearch": true,
-        "iconMode": "tabler",
+        "iconMode": "native",
         "ignoreMouseInput": false,
         "pinnedApps": [
         ],
@@ -40,10 +40,18 @@
         "marginHorizontal": 4,
         "marginVertical": 8,
         "monitors": [
+            "HDMI-A-1",
+            "DP-2",
+            "DP-3"
         ],
         "outerCorners": true,
         "position": "top",
         "screenOverrides": [
+            {
+                "enabled": true,
+                "name": "HDMI-A-1",
+                "position": "right"
+            }
         ],
         "showCapsule": false,
         "showOutline": false,
@@ -112,36 +120,30 @@
                     "colorizeIcons": false,
                     "hideMode": "hidden",
                     "id": "ActiveWindow",
-                    "maxWidth": 145,
+                    "maxWidth": 700,
                     "scrollingMode": "hover",
                     "showIcon": true,
                     "useFixedWidth": false
-                },
+                }
+            ],
+            "right": [
                 {
-                    "compactMode": false,
+                    "compactMode": true,
                     "compactShowAlbumArt": true,
                     "compactShowVisualizer": false,
                     "hideMode": "hidden",
                     "hideWhenIdle": false,
                     "id": "MediaMini",
-                    "maxWidth": 145,
+                    "maxWidth": 700,
                     "panelShowAlbumArt": true,
                     "panelShowVisualizer": true,
                     "scrollingMode": "hover",
                     "showAlbumArt": true,
                     "showArtistFirst": true,
                     "showProgressRing": true,
-                    "showVisualizer": false,
+                    "showVisualizer": true,
                     "useFixedWidth": false,
                     "visualizerType": "linear"
-                }
-            ],
-            "right": [
-                {
-                    "colorName": "primary",
-                    "hideWhenIdle": true,
-                    "id": "AudioVisualizer",
-                    "width": 200
                 },
                 {
                     "blacklist": [
@@ -273,14 +275,14 @@
                         "hideMode": "idle",
                         "id": "MediaPlayer",
                         "roundedCorners": true,
-                        "scale": 1.2976661749448057,
+                        "scale": 1.3703287624073608,
                         "showAlbumArt": true,
                         "showBackground": true,
                         "showButtons": true,
                         "showVisualizer": true,
                         "visualizerType": "linear",
                         "x": 40,
-                        "y": 1151
+                        "y": 1142
                     }
                 ]
             }
@@ -468,11 +470,11 @@
         "cpuCriticalThreshold": 90,
         "cpuPollingInterval": 3000,
         "cpuWarningThreshold": 80,
-        "criticalColor": "",
+        "criticalColor": "#f38ba8",
         "diskCriticalThreshold": 90,
         "diskPollingInterval": 30000,
         "diskWarningThreshold": 80,
-        "enableDgpuMonitoring": false,
+        "enableDgpuMonitoring": true,
         "externalMonitor": "resources || missioncenter || jdsystemmonitor || corestats || system-monitoring-center || gnome-system-monitor || plasma-systemmonitor || mate-system-monitor || ukui-system-monitor || deepin-system-monitor || pantheon-system-monitor",
         "gpuCriticalThreshold": 90,
         "gpuPollingInterval": 3000,
@@ -488,7 +490,7 @@
         "tempPollingInterval": 3000,
         "tempWarningThreshold": 80,
         "useCustomColors": false,
-        "warningColor": ""
+        "warningColor": "#fab387"
     },
     "templates": {
         "activeTemplates": [
