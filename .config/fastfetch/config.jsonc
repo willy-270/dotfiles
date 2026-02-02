@@ -1,0 +1,28 @@
+{
+  "logo": {
+    "type": "auto",
+    "color": {
+      "1": "magenta",
+      "2": "magenta"
+    }
+  },
+
+  "modules": [
+    { "type": "os", "keyColor": "magenta" },
+    { "type": "host", "keyColor": "magenta" },
+    { "type": "kernel", "keyColor": "magenta" },
+    { "type": "uptime", "keyColor": "magenta" },
+    { "type": "packages", "keyColor": "magenta" },
+    { "type": "shell", "keyColor": "magenta" },
+    { "type": "display", "keyColor": "magenta" },
+    { "type": "wm", "keyColor": "magenta" },
+    { "type": "theme", "keyColor": "magenta" },
+    { "type": "terminal", "keyColor": "magenta" },
+    { "type": "cpu", "keyColor": "magenta" },
+    { "type": "gpu", "keyColor": "magenta" },
+    { "type": "memory", "keyColor": "magenta" },
+    { "type": "disk", "keyColor": "magenta" },
+    { "type": "localip", "keyColor": "magenta" },
+  ]
+}
+
